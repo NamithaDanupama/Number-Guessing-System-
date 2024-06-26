@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>නොම්බරේ හොයපන්</h1>
+        <p id="message">1 ඉදන් 10 ට නොම්බරයක් දාපන්</p>
+        <form id="guessForm">
+            <input type="number" id="guessInput" min="1" max="10" required>
+            <button type="submit">Guess</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
